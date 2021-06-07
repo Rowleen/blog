@@ -1,5 +1,5 @@
 import propTypes from 'prop-types'
-import { Header } from 'components'
+import { Footer, Header } from 'components'
 
 import styles from 'styles/components/layout.module.sass'
 
@@ -10,6 +10,8 @@ const Layout = ({ children }) => {
         <Header />
 
         {children}
+
+        <Footer />
       </div>
     </div>
   )
