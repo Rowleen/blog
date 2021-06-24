@@ -7,7 +7,9 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.header__content}>
         <div className={styles.title}>
-          JPA. <small>jupeac.dev</small>
+          <h1>
+            JPA. <small>jupeac.dev</small>
+          </h1>
         </div>
 
         <nav className={styles.principalNav}>
