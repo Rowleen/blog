@@ -9,7 +9,12 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <div className={styles.home}></div>
+      <main className={styles.home}>
+        <section className={styles.posts}>
+          <h2 className={styles.sectionTitle}>Últimas publicaciones</h2>
+        </section>
+        <aside></aside>
+      </main>
     </>
   )
 }
